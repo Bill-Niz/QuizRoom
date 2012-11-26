@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+
+  <title>Class: Bot</title>
+
+  <link rel="stylesheet" href="./rdoc.css" type="text/css" media="screen" />
+
+  <script src="./js/jquery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/thickbox-compressed.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/quicksearch.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/darkfish.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+<body id="top" class="class">
+
+  <div id="metadata">
+    <div id="home-metadata">
+      <div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="./index.html">Home</a>
+          <a href="./index.html#classes">Classes</a>
+          <a href="./index.html#methods">Methods</a>
+        </h3>
+      </div>
+    </div>
+
+    <div id="file-metadata">
+      <div id="file-list-section" class="section">
+        <h3 class="section-header">In Files</h3>
+        <div class="section-body">
+          <ul>
+          
+            <li><a href="./lib/class/bot_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/class/bot.rb">lib/class/bot.rb</a></li>
+          
+          </ul>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <div id="class-metadata">
+      
+      <!-- Parent Class -->
+      <div id="parent-class-section" class="section">
+        <h3 class="section-header">Parent</h3>
+        
+        <p class="link">Object</p>
+        
+      </div>
+      
+
+      
+
+      
+
+      
+      <!-- Method Quickref -->
+      <div id="method-list-section" class="section">
+        <h3 class="section-header">Methods</h3>
+        <ul class="link-list">
+          
+          <li><a href="#method-c-new">::new</a></li>
+          
+          <li><a href="#method-i-calculatePoint">#calculatePoint</a></li>
+          
+          <li><a href="#method-i-channelIsEmpty-3D">#channelIsEmpty=</a></li>
+          
+          <li><a href="#method-i-checkAnswer">#checkAnswer</a></li>
+          
+          <li><a href="#method-i-checkIfempty">#checkIfempty</a></li>
+          
+          <li><a href="#method-i-defineQuestion">#defineQuestion</a></li>
+          
+          <li><a href="#method-i-init">#init</a></li>
+          
+          <li><a href="#method-i-initBotThread">#initBotThread</a></li>
+          
+          <li><a href="#method-i-pauseBotThread">#pauseBotThread</a></li>
+          
+          <li><a href="#method-i-processQuiz">#processQuiz</a></li>
+          
+          <li><a href="#method-i-receive_answer">#receive_answer</a></li>
+          
+          <li><a href="#method-i-restoreVariable">#restoreVariable</a></li>
+          
+          <li><a href="#method-i-sendQuestion">#sendQuestion</a></li>
+          
+          <li><a href="#method-i-sendWait">#sendWait</a></li>
+          
+          <li><a href="#method-i-startBotThread">#startBotThread</a></li>
+          
+          <li><a href="#method-i-startTimer">#startTimer</a></li>
+          
+          <li><a href="#method-i-updatePoint">#updatePoint</a></li>
+          
+          <li><a href="#method-i-userConnected">#userConnected</a></li>
+          
+          <li><a href="#method-i-userDisConnected">#userDisConnected</a></li>
+          
+          <li><a href="#method-i-waitFor">#waitFor</a></li>
+          
+        </ul>
+      </div>
+      
+
+      
+    </div>
+
+    <div id="project-metadata">
+      
+      
+      <div id="fileindex-section" class="section project-section">
+        <h3 class="section-header">Files</h3>
+        <ul>
+        
+          <li class="file"><a href="./LICENSE.html">LICENSE</a></li>
+        
+          <li class="file"><a href="./README.html">README</a></li>
+        
+          <li class="file"><a href="./README 2.html">README 2</a></li>
+        
+          <li class="file"><a href="./Rakefile.html">Rakefile</a></li>
+        
+          <li class="file"><a href="./lib/Gemfile.html">Gemfile</a></li>
+        
+          <li class="file"><a href="./lib/LICENSE.html">LICENSE</a></li>
+        
+          <li class="file"><a href="./lib/ssl/crt.html">crt</a></li>
+        
+          <li class="file"><a href="./lib/ssl/key.html">key</a></li>
+        
+          <li class="file"><a href="./nbproject/private/rake-d_txt.html">rake-d.txt</a></li>
+        
+        </ul>
+      </div>
+      
+
+      <div id="classindex-section" class="section project-section">
+        <h3 class="section-header">Class/Module Index
+          <span class="search-toggle"><img src="./images/find.png"
+            height="16" width="16" alt="[+]"
+            title="show/hide quicksearch" /></span></h3>
+        <form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
+        <fieldset>
+          <legend>Quicksearch</legend>
+          <input type="text" name="quicksearch" value=""
+            class="quicksearch-field" />
+        </fieldset>
+        </form>
+
+        <ul class="link-list">
+        
+          <li><a href="./Bot.html">Bot</a></li>
+        
+          <li><a href="./Channel.html">Channel</a></li>
+        
+          <li><a href="./ChannelRepository.html">ChannelRepository</a></li>
+        
+          <li><a href="./ChatHandler.html">ChatHandler</a></li>
+        
+          <li><a href="./ChatServer.html">ChatServer</a></li>
+        
+          <li><a href="./Client.html">Client</a></li>
+        
+          <li><a href="./ContentChanged.html">ContentChanged</a></li>
+        
+          <li><a href="./Log.html">Log</a></li>
+        
+          <li><a href="./MailHelper.html">MailHelper</a></li>
+        
+          <li><a href="./MysqlHelper.html">MysqlHelper</a></li>
+        
+          <li><a href="./QuizChannel.html">QuizChannel</a></li>
+        
+          <li><a href="./QuizUer.html">QuizUer</a></li>
+        
+          <li><a href="./QuizUser.html">QuizUser</a></li>
+        
+          <li><a href="./Repository.html">Repository</a></li>
+        
+          <li><a href="./Submit.html">Submit</a></li>
+        
+          <li><a href="./TestSubmit.html">TestSubmit</a></li>
+        
+          <li><a href="./ThreadRepository.html">ThreadRepository</a></li>
+        
+          <li><a href="./User.html">User</a></li>
+        
+          <li><a href="./UserHandler.html">UserHandler</a></li>
+        
+          <li><a href="./UserRepository.html">UserRepository</a></li>
+        
+          <li><a href="./Utility.html">Utility</a></li>
+        
+          <li><a href="./WebAppServer.html">WebAppServer</a></li>
+        
+          <li><a href="./WebAppSubmit.html">WebAppSubmit</a></li>
+        
+        </ul>
+        <div id="no-class-search-results" style="display: none;">No matching classes.</div>
+      </div>
+
+      
+    </div>
+  </div>
+
+  <div id="documentation">
+    <h1 class="class">Bot</h1>
+
+    <div id="description" class="description">
+      
+<p>To change this template, choose Tools | Templates and open the template in
+the editor.</p>
+
+    </div><!-- description -->
+
+    
+    
+    
+    <div id="5Buntitled-5D" class="documentation-section">
+      
+
+      
+
+      
+      <!-- Constants -->
+      <div id="constants-list" class="section">
+        <h3 class="section-header">Constants</h3>
+        <dl>
+        
+          <dt><a name="POINT_FIRST">POINT_FIRST</a></dt>
+          
+          <dd class="description"></dd>
+          
+        
+          <dt><a name="POINT_OTHER">POINT_OTHER</a></dt>
+          
+          <dd class="description"></dd>
+          
+        
+          <dt><a name="POINT_SECOND">POINT_SECOND</a></dt>
+          
+          <dd class="description"></dd>
+          
+        
+          <dt><a name="POINT_THIRD">POINT_THIRD</a></dt>
+          
+          <dd class="description"></dd>
+          
+        
+          <dt><a name="TIME_BETWEEN_QUESTIONS">TIME_BETWEEN_QUESTIONS</a></dt>
+          
+          <dd class="description"></dd>
+          
+        
+          <dt><a name="TIME_QUESTIONS">TIME_QUESTIONS</a></dt>
+          
+          <dd class="description"></dd>
+          
+        
+        </dl>
+      </div>
+      
+
+      
+
+      <!-- Methods -->
+      
+      <div id="public-class-method-details" class="method-section section">
+        <h3 class="section-header">Public Class Methods</h3>
+
+      
+        <div id="new-method" class="method-detail ">
+          <a name="method-c-new"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">new</span><span
+              class="method-args">(channel)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="new-source">
+<pre>
+<span class="ruby-comment"># File lib/class/bot.rb, line 13</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">channel</span>)
+ 
+  <span class="ruby-ivar">@channel</span> = <span class="ruby-identifier">channel</span>
+  <span class="ruby-ivar">@mainThread</span>
+  <span class="ruby-ivar">@waitUSerThread</span>
+  <span class="ruby-ivar">@channelIsEmpty</span> = <span class="ruby-keyword">true</span>
+  <span class="ruby-ivar">@canRecieveAnswer</span> = <span class="ruby-keyword">false</span>
+  
+  <span class="ruby-ivar">@currentQuestion</span> =<span class="ruby-string">&quot;2+1+1*0 = ?&quot;</span>
+  <span class="ruby-ivar">@currentAnswer</span>  = <span class="ruby-string">&quot;3&quot;</span>
+  <span class="ruby-ivar">@currentQuestionId</span> = <span class="ruby-value">0</span>
+  <span class="ruby-ivar">@TimeElapsed</span> = <span class="ruby-value">0</span>
+  
+  <span class="ruby-ivar">@userPos</span> = <span class="ruby-value">1</span>
+ 
+  <span class="ruby-identifier">init</span>()
+  
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- new-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- new-method -->
+
+      
+      </div><!-- public-class-method-details -->
+    
+      <div id="public-instance-method-details" class="method-section section">
+        <h3 class="section-header">Public Instance Methods</h3>
+
+      
+        <div id="calculatePoint-method" class="method-detail ">
+          <a name="method-i-calculatePoint"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">calculatePoint</span><span
+              class="method-args">(userpos)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="calculatePoint-source">
+<pre>
+<span class="ruby-comment"># File lib/class/bot.rb, line 118</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">calculatePoint</span>(<span class="ruby-identifier">userpos</span>)
+  <span class="ruby-comment">#TODO make Point</span>
+  <span class="ruby-keyword">case</span> <span class="ruby-identifier">userpos</span>
+  <span class="ruby-keyword">when</span> <span class="ruby-value">1</span>
+    <span class="ruby-constant">POINT_FIRST</span> 
+  <span class="ruby-keyword">when</span> <span class="ruby-value">2</span>
+    <span class="ruby-constant">POINT_SECOND</span> 
+  <span class="ruby-keyword">when</span> <span class="ruby-value">3</span>
+    <span class="ruby-constant">POINT_THIRD</span> 
+  <span class="ruby-keyword">else</span> 
+    <span class="ruby-constant">POINT_OTHER</span>
+  <span class="ruby-keyword">end</span>
+ <span class="ruby-keyword">end</span></pre>
+            </div><!-- calculatePoint-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- calculatePoint-method -->
+
+      
+        <div id="channelIsEmpty-3D-method" class="method-detail ">
+          <a name="method-i-channelIsEmpty-3D"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">channelIsEmpty=</span><span
+              class="method-args">(value)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Notify BOT that there is no user</p>
+            
+
+            
+            <div class="method-source-code" id="channelIsEmpty-3D-source">
+<pre>
+<span class="ruby-comment"># File lib/class/bot.rb, line 251</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">channelIsEmpty=</span>(<span class="ruby-identifier">value</span>)
+  <span class="ruby-ivar">@channelIsEmpty</span> = <span class="ruby-identifier">value</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- channelIsEmpty-3D-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- channelIsEmpty-3D-method -->
+
+      
+        <div id="checkAnswer-method" class="method-detail ">
+          <a name="method-i-checkAnswer"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">checkAnswer</span><span
+              class="method-args">(answer,from_user)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="checkAnswer-source">
+<pre>
+<span class="ruby-comment"># File lib/class/bot.rb, line 104</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">checkAnswer</span>(<span class="ruby-identifier">answer</span>,<span class="ruby-identifier">from_user</span>)
+  <span class="ruby-keyword">if</span> (<span class="ruby-ivar">@currentAnswer</span>.<span class="ruby-identifier">include?</span> <span class="ruby-identifier">answer</span>)
+    <span class="ruby-identifier">elapsed</span> = <span class="ruby-constant">Time</span>.<span class="ruby-identifier">now</span> <span class="ruby-operator">-</span> <span class="ruby-ivar">@TimeElapsed</span>
+    <span class="ruby-identifier">from_user</span>.<span class="ruby-identifier">receiveFromQuizChannel</span>(<span class="ruby-ivar">@channel</span>.<span class="ruby-identifier">getId</span>, <span class="ruby-string">&quot;Correct!&quot;</span>)
+    <span class="ruby-identifier">updatePoint</span>(<span class="ruby-identifier">from_user</span>,<span class="ruby-identifier">elapsed</span>,<span class="ruby-ivar">@userPos</span>)
+    <span class="ruby-ivar">@userPos</span> = <span class="ruby-ivar">@userPos</span> <span class="ruby-operator">+</span> <span class="ruby-value">1</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-identifier">from_user</span>.<span class="ruby-identifier">receiveFromQuizChannel</span>(<span class="ruby-ivar">@channel</span>.<span class="ruby-identifier">getId</span>, <span class="ruby-string">&quot;Not Correct!&quot;</span>)
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- checkAnswer-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- checkAnswer-method -->
+
+      
+        <div id="checkIfempty-method" class="method-detail ">
+          <a name="method-i-checkIfempty"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">checkIfempty</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="checkIfempty-source">
+<pre>
+<span class="ruby-comment"># File lib/class/bot.rb, line 203</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">checkIfempty</span>
+  <span class="ruby-keyword">if</span>(<span class="ruby-ivar">@channelIsEmpty</span>)
+    
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- checkIfempty-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- checkIfempty-method -->
+
+      
+        <div id="defineQuestion-method" class="method-detail ">
+          <a name="method-i-defineQuestion"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">defineQuestion</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="defineQuestion-source">
+<pre>
+<span class="ruby-comment"># File lib/class/bot.rb, line 226</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">defineQuestion</span>
+  <span class="ruby-comment">#TODO implement question</span>
+  <span class="ruby-ivar">@mysqlHelper</span> = <span class="ruby-constant">MysqlHelper</span>.<span class="ruby-identifier">new</span>
+  <span class="ruby-identifier">q</span> = <span class="ruby-ivar">@mysqlHelper</span>.<span class="ruby-identifier">getQuestion</span>
+  <span class="ruby-ivar">@currentQuestion</span> = <span class="ruby-identifier">q</span>[<span class="ruby-string">&quot;question&quot;</span>]
+  <span class="ruby-ivar">@currentAnswer</span>  =  <span class="ruby-identifier">q</span>[<span class="ruby-string">&quot;answer&quot;</span>]
+  <span class="ruby-ivar">@currentQuestionId</span> = <span class="ruby-identifier">q</span>[<span class="ruby-string">&quot;id&quot;</span>]
+  
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- defineQuestion-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- defineQuestion-method -->
+
+      
+        <div id="init-method" class="method-detail ">
+          <a name="method-i-init"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">init</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="init-source">
+<pre>
+<span class="ruby-comment"># File lib/class/bot.rb, line 35</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">init</span>()
+  <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;Bot Init Thread...&quot;</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-ivar">@channel</span>.<span class="ruby-identifier">getType</span> <span class="ruby-operator">==</span> <span class="ruby-value">1</span>
+    <span class="ruby-identifier">initBotThread</span>()
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;Bot Init Thread... Done!&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- init-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- init-method -->
+
+      
+        <div id="initBotThread-method" class="method-detail ">
+          <a name="method-i-initBotThread"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">initBotThread</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Start bot main thread</p>
+            
+
+            
+            <div class="method-source-code" id="initBotThread-source">
+<pre>
+<span class="ruby-comment"># File lib/class/bot.rb, line 46</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">initBotThread</span>
+  <span class="ruby-ivar">@mainThread</span> = <span class="ruby-constant">Thread</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">arg</span>) { <span class="ruby-operator">|</span><span class="ruby-identifier">args</span><span class="ruby-operator">|</span> 
+  
+    <span class="ruby-identifier">loop</span> <span class="ruby-keyword">do</span>
+      <span class="ruby-keyword">while</span> <span class="ruby-operator">!</span><span class="ruby-ivar">@channelIsEmpty</span>
+        <span class="ruby-identifier">restoreVariable</span>
+        <span class="ruby-identifier">defineQuestion</span>()
+        
+        <span class="ruby-identifier">start_time</span> = <span class="ruby-constant">Time</span>.<span class="ruby-identifier">now</span>
+        
+        <span class="ruby-identifier">sendWait</span>(<span class="ruby-constant">TIME_BETWEEN_QUESTIONS</span>)
+        
+        <span class="ruby-identifier">elapsed</span> = <span class="ruby-constant">Time</span>.<span class="ruby-identifier">now</span> <span class="ruby-operator">-</span> <span class="ruby-identifier">start_time</span>
+        <span class="ruby-identifier">sleep</span>([ <span class="ruby-constant">TIME_BETWEEN_QUESTIONS</span> <span class="ruby-operator">-</span> <span class="ruby-identifier">elapsed</span>, <span class="ruby-value">0</span>].<span class="ruby-identifier">max</span>)
+        
+        <span class="ruby-ivar">@canRecieveAnswer</span> = <span class="ruby-keyword">true</span>
+        <span class="ruby-identifier">sendQuestion</span>()
+        <span class="ruby-ivar">@TimeElapsed</span> = <span class="ruby-constant">Time</span>.<span class="ruby-identifier">now</span>
+        <span class="ruby-identifier">startTimer</span>(<span class="ruby-constant">TIME_QUESTIONS</span>)
+        
+        <span class="ruby-ivar">@canRecieveAnswer</span> = <span class="ruby-keyword">false</span>
+        <span class="ruby-identifier">from_user</span>.<span class="ruby-identifier">receiveFromQuizChannel</span>(<span class="ruby-ivar">@channel</span>.<span class="ruby-identifier">getId</span>, <span class="ruby-string">&quot;Time up !&quot;</span>)
+        
+  
+      <span class="ruby-keyword">end</span>
+    <span class="ruby-keyword">end</span>
+  }
+  
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- initBotThread-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- initBotThread-method -->
+
+      
+        <div id="pauseBotThread-method" class="method-detail ">
+          <a name="method-i-pauseBotThread"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">pauseBotThread</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Stop bot main thread</p>
+            
+
+            
+            <div class="method-source-code" id="pauseBotThread-source">
+<pre>
+<span class="ruby-comment"># File lib/class/bot.rb, line 185</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">pauseBotThread</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-operator">!</span><span class="ruby-ivar">@mainThread</span>.<span class="ruby-identifier">stop?</span>
+    <span class="ruby-ivar">@mainThread</span>.<span class="ruby-identifier">stop</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- pauseBotThread-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- pauseBotThread-method -->
+
+      
+        <div id="processQuiz-method" class="method-detail ">
+          <a name="method-i-processQuiz"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">processQuiz</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="processQuiz-source">
+<pre>
+<span class="ruby-comment"># File lib/class/bot.rb, line 212</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">processQuiz</span>
+  <span class="ruby-constant">Thread</span>.<span class="ruby-identifier">new</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-identifier">loop</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-identifier">start_time</span> = <span class="ruby-constant">Time</span>.<span class="ruby-identifier">now</span>
+    <span class="ruby-keyword">yield</span>
+    <span class="ruby-identifier">elapsed</span> = <span class="ruby-constant">Time</span>.<span class="ruby-identifier">now</span> <span class="ruby-operator">-</span> <span class="ruby-identifier">start_time</span>
+    <span class="ruby-identifier">sleep</span>([<span class="ruby-identifier">interval</span> <span class="ruby-operator">-</span> <span class="ruby-identifier">elapsed</span>, <span class="ruby-value">0</span>].<span class="ruby-identifier">max</span>)
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- processQuiz-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- processQuiz-method -->
+
+      
+        <div id="receive_answer-method" class="method-detail ">
+          <a name="method-i-receive_answer"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">receive_answer</span><span
+              class="method-args">(answer,from_user)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="receive_answer-source">
+<pre>
+<span class="ruby-comment"># File lib/class/bot.rb, line 90</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">receive_answer</span>(<span class="ruby-identifier">answer</span>,<span class="ruby-identifier">from_user</span>)
+  
+  <span class="ruby-keyword">if</span> <span class="ruby-ivar">@canRecieveAnswer</span>
+    <span class="ruby-constant">Thread</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">answer</span>,<span class="ruby-identifier">from_user</span>) { <span class="ruby-operator">|</span><span class="ruby-identifier">ans</span>,<span class="ruby-identifier">user</span><span class="ruby-operator">|</span>  
+      <span class="ruby-identifier">checkAnswer</span>(<span class="ruby-identifier">ans</span>,<span class="ruby-identifier">user</span>)
+    }
+    
+  <span class="ruby-keyword">end</span>
+  
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- receive_answer-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- receive_answer-method -->
+
+      
+        <div id="restoreVariable-method" class="method-detail ">
+          <a name="method-i-restoreVariable"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">restoreVariable</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="restoreVariable-source">
+<pre>
+<span class="ruby-comment"># File lib/class/bot.rb, line 146</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">restoreVariable</span>
+  <span class="ruby-ivar">@currentQuestion</span> =<span class="ruby-string">&quot;2+1+1*0 = ?&quot;</span>
+  <span class="ruby-ivar">@currentAnswer</span>  = <span class="ruby-string">&quot;3&quot;</span>
+  <span class="ruby-ivar">@currentQuestionId</span> = <span class="ruby-value">0</span>
+  <span class="ruby-ivar">@TimeElapsed</span> = <span class="ruby-value">0</span>
+  
+  <span class="ruby-ivar">@userPos</span> = <span class="ruby-value">1</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- restoreVariable-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- restoreVariable-method -->
+
+      
+        <div id="sendQuestion-method" class="method-detail ">
+          <a name="method-i-sendQuestion"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">sendQuestion</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="sendQuestion-source">
+<pre>
+<span class="ruby-comment"># File lib/class/bot.rb, line 79</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">sendQuestion</span>()
+  <span class="ruby-ivar">@channel</span>.<span class="ruby-identifier">getUserList</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">user</span><span class="ruby-operator">|</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">user</span>.<span class="ruby-identifier">ready?</span>
+      <span class="ruby-identifier">user</span>.<span class="ruby-identifier">receiveQuestion</span>(<span class="ruby-ivar">@channel</span>.<span class="ruby-identifier">getId</span>, <span class="ruby-ivar">@currentQuestion</span>)
+    <span class="ruby-keyword">end</span>
+    
+  }
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- sendQuestion-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- sendQuestion-method -->
+
+      
+        <div id="sendWait-method" class="method-detail ">
+          <a name="method-i-sendWait"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">sendWait</span><span
+              class="method-args">(second)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="sendWait-source">
+<pre>
+<span class="ruby-comment"># File lib/class/bot.rb, line 157</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">sendWait</span>(<span class="ruby-identifier">second</span>)
+  <span class="ruby-ivar">@channel</span>.<span class="ruby-identifier">getUserList</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">user</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">user</span>.<span class="ruby-identifier">waitFor</span>(<span class="ruby-identifier">second</span>)
+    
+  }
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- sendWait-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- sendWait-method -->
+
+      
+        <div id="startBotThread-method" class="method-detail ">
+          <a name="method-i-startBotThread"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">startBotThread</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Start <a href="Bot.html">Bot</a> Thread</p>
+            
+
+            
+            <div class="method-source-code" id="startBotThread-source">
+<pre>
+<span class="ruby-comment"># File lib/class/bot.rb, line 194</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">startBotThread</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-ivar">@mainThread</span>.<span class="ruby-identifier">stop?</span>
+    <span class="ruby-ivar">@mainThread</span>.<span class="ruby-identifier">run</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- startBotThread-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- startBotThread-method -->
+
+      
+        <div id="startTimer-method" class="method-detail ">
+          <a name="method-i-startTimer"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">startTimer</span><span
+              class="method-args">(second)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="startTimer-source">
+<pre>
+<span class="ruby-comment"># File lib/class/bot.rb, line 178</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">startTimer</span>(<span class="ruby-identifier">second</span>)
+   <span class="ruby-identifier">sleep</span>(<span class="ruby-identifier">second</span>)
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- startTimer-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- startTimer-method -->
+
+      
+        <div id="updatePoint-method" class="method-detail ">
+          <a name="method-i-updatePoint"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">updatePoint</span><span
+              class="method-args">(from_user,elapsed,userpos)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="updatePoint-source">
+<pre>
+<span class="ruby-comment"># File lib/class/bot.rb, line 135</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">updatePoint</span>(<span class="ruby-identifier">from_user</span>,<span class="ruby-identifier">elapsed</span>,<span class="ruby-identifier">userpos</span>)
+  <span class="ruby-identifier">point</span> = <span class="ruby-identifier">calculatePoint</span>(<span class="ruby-identifier">userpos</span>)
+  <span class="ruby-comment">#TODO updatdePoint</span>
+  <span class="ruby-comment">#TODO update question stat</span>
+  
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- updatePoint-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- updatePoint-method -->
+
+      
+        <div id="userConnected-method" class="method-detail ">
+          <a name="method-i-userConnected"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">userConnected</span><span
+              class="method-args">(user)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Notify BOT that an use connection</p>
+            
+
+            
+            <div class="method-source-code" id="userConnected-source">
+<pre>
+<span class="ruby-comment"># File lib/class/bot.rb, line 239</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">userConnected</span> (<span class="ruby-identifier">user</span>)
+  
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- userConnected-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- userConnected-method -->
+
+      
+        <div id="userDisConnected-method" class="method-detail ">
+          <a name="method-i-userDisConnected"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">userDisConnected</span><span
+              class="method-args">(user)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Notify BOT that an use disconnection</p>
+            
+
+            
+            <div class="method-source-code" id="userDisConnected-source">
+<pre>
+<span class="ruby-comment"># File lib/class/bot.rb, line 245</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">userDisConnected</span> (<span class="ruby-identifier">user</span>)
+  
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- userDisConnected-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- userDisConnected-method -->
+
+      
+        <div id="waitFor-method" class="method-detail ">
+          <a name="method-i-waitFor"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">waitFor</span><span
+              class="method-args">(second)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="waitFor-source">
+<pre>
+<span class="ruby-comment"># File lib/class/bot.rb, line 167</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">waitFor</span>(<span class="ruby-identifier">second</span>)
+  <span class="ruby-comment">#TODO Send to user waitting request</span>
+  <span class="ruby-constant">Thread</span>.<span class="ruby-identifier">new</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-identifier">sleep</span>(<span class="ruby-identifier">second</span>)
+    <span class="ruby-keyword">yield</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- waitFor-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- waitFor-method -->
+
+      
+      </div><!-- public-instance-method-details -->
+    
+    </div><!-- 5Buntitled-5D -->
+  
+
+  </div><!-- documentation -->
+
+  <div id="validator-badges">
+    <p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+    <p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
+      Rdoc Generator</a> 2</small>.</p>
+  </div>
+
+</body>
+</html>
+

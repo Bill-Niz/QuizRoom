@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+
+  <title>Class: Channel</title>
+
+  <link rel="stylesheet" href="./rdoc.css" type="text/css" media="screen" />
+
+  <script src="./js/jquery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/thickbox-compressed.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/quicksearch.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/darkfish.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+<body id="top" class="class">
+
+  <div id="metadata">
+    <div id="home-metadata">
+      <div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="./index.html">Home</a>
+          <a href="./index.html#classes">Classes</a>
+          <a href="./index.html#methods">Methods</a>
+        </h3>
+      </div>
+    </div>
+
+    <div id="file-metadata">
+      <div id="file-list-section" class="section">
+        <h3 class="section-header">In Files</h3>
+        <div class="section-body">
+          <ul>
+          
+            <li><a href="./lib/class/channel_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/class/channel.rb">lib/class/channel.rb</a></li>
+          
+          </ul>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <div id="class-metadata">
+      
+      <!-- Parent Class -->
+      <div id="parent-class-section" class="section">
+        <h3 class="section-header">Parent</h3>
+        
+        <p class="link">Object</p>
+        
+      </div>
+      
+
+      
+
+      
+
+      
+      <!-- Method Quickref -->
+      <div id="method-list-section" class="section">
+        <h3 class="section-header">Methods</h3>
+        <ul class="link-list">
+          
+          <li><a href="#method-c-new">::new</a></li>
+          
+          <li><a href="#method-i-getBot">#getBot</a></li>
+          
+          <li><a href="#method-i-getId">#getId</a></li>
+          
+          <li><a href="#method-i-getName">#getName</a></li>
+          
+          <li><a href="#method-i-getType">#getType</a></li>
+          
+          <li><a href="#method-i-getUserById">#getUserById</a></li>
+          
+          <li><a href="#method-i-getUserList">#getUserList</a></li>
+          
+          <li><a href="#method-i-init">#init</a></li>
+          
+          <li><a href="#method-i-isIn">#isIn</a></li>
+          
+          <li><a href="#method-i-join">#join</a></li>
+          
+          <li><a href="#method-i-onContentAdded">#onContentAdded</a></li>
+          
+          <li><a href="#method-i-onContentChanged">#onContentChanged</a></li>
+          
+          <li><a href="#method-i-onContentRemoved">#onContentRemoved</a></li>
+          
+          <li><a href="#method-i-remove">#remove</a></li>
+          
+          <li><a href="#method-i-send">#send</a></li>
+          
+          <li><a href="#method-i-sendToBot">#sendToBot</a></li>
+          
+          <li><a href="#method-i-to_s">#to_s</a></li>
+          
+        </ul>
+      </div>
+      
+
+      
+      <!-- Included Modules -->
+      <div id="includes-section" class="section">
+        <h3 class="section-header">Included Modules</h3>
+        <ul class="link-list">
+        
+        
+          <li><a class="include" href="ContentChanged.html">ContentChanged</a></li>
+        
+        
+        </ul>
+      </div>
+      
+    </div>
+
+    <div id="project-metadata">
+      
+      
+      <div id="fileindex-section" class="section project-section">
+        <h3 class="section-header">Files</h3>
+        <ul>
+        
+          <li class="file"><a href="./LICENSE.html">LICENSE</a></li>
+        
+          <li class="file"><a href="./README.html">README</a></li>
+        
+          <li class="file"><a href="./README 2.html">README 2</a></li>
+        
+          <li class="file"><a href="./Rakefile.html">Rakefile</a></li>
+        
+          <li class="file"><a href="./lib/Gemfile.html">Gemfile</a></li>
+        
+          <li class="file"><a href="./lib/LICENSE.html">LICENSE</a></li>
+        
+          <li class="file"><a href="./lib/ssl/crt.html">crt</a></li>
+        
+          <li class="file"><a href="./lib/ssl/key.html">key</a></li>
+        
+          <li class="file"><a href="./nbproject/private/rake-d_txt.html">rake-d.txt</a></li>
+        
+        </ul>
+      </div>
+      
+
+      <div id="classindex-section" class="section project-section">
+        <h3 class="section-header">Class/Module Index
+          <span class="search-toggle"><img src="./images/find.png"
+            height="16" width="16" alt="[+]"
+            title="show/hide quicksearch" /></span></h3>
+        <form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
+        <fieldset>
+          <legend>Quicksearch</legend>
+          <input type="text" name="quicksearch" value=""
+            class="quicksearch-field" />
+        </fieldset>
+        </form>
+
+        <ul class="link-list">
+        
+          <li><a href="./Bot.html">Bot</a></li>
+        
+          <li><a href="./Channel.html">Channel</a></li>
+        
+          <li><a href="./ChannelRepository.html">ChannelRepository</a></li>
+        
+          <li><a href="./ChatHandler.html">ChatHandler</a></li>
+        
+          <li><a href="./ChatServer.html">ChatServer</a></li>
+        
+          <li><a href="./Client.html">Client</a></li>
+        
+          <li><a href="./ContentChanged.html">ContentChanged</a></li>
+        
+          <li><a href="./Log.html">Log</a></li>
+        
+          <li><a href="./MailHelper.html">MailHelper</a></li>
+        
+          <li><a href="./MysqlHelper.html">MysqlHelper</a></li>
+        
+          <li><a href="./QuizChannel.html">QuizChannel</a></li>
+        
+          <li><a href="./QuizUer.html">QuizUer</a></li>
+        
+          <li><a href="./QuizUser.html">QuizUser</a></li>
+        
+          <li><a href="./Repository.html">Repository</a></li>
+        
+          <li><a href="./Submit.html">Submit</a></li>
+        
+          <li><a href="./TestSubmit.html">TestSubmit</a></li>
+        
+          <li><a href="./ThreadRepository.html">ThreadRepository</a></li>
+        
+          <li><a href="./User.html">User</a></li>
+        
+          <li><a href="./UserHandler.html">UserHandler</a></li>
+        
+          <li><a href="./UserRepository.html">UserRepository</a></li>
+        
+          <li><a href="./Utility.html">Utility</a></li>
+        
+          <li><a href="./WebAppServer.html">WebAppServer</a></li>
+        
+          <li><a href="./WebAppSubmit.html">WebAppSubmit</a></li>
+        
+        </ul>
+        <div id="no-class-search-results" style="display: none;">No matching classes.</div>
+      </div>
+
+      
+    </div>
+  </div>
+
+  <div id="documentation">
+    <h1 class="class">Channel</h1>
+
+    <div id="description" class="description">
+      
+    </div><!-- description -->
+
+    
+    
+    
+    <div id="5Buntitled-5D" class="documentation-section">
+      
+
+      
+
+      
+
+      
+
+      <!-- Methods -->
+      
+      <div id="public-class-method-details" class="method-section section">
+        <h3 class="section-header">Public Class Methods</h3>
+
+      
+        <div id="new-method" class="method-detail ">
+          <a name="method-c-new"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">new</span><span
+              class="method-args">(name="",id="",type="",chatServer=nil)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="new-source">
+<pre>
+<span class="ruby-comment"># File lib/class/channel.rb, line 8</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">name</span>=<span class="ruby-string">&quot;&quot;</span>,<span class="ruby-identifier">id</span>=<span class="ruby-string">&quot;&quot;</span>,<span class="ruby-identifier">type</span>=<span class="ruby-string">&quot;&quot;</span>,<span class="ruby-identifier">chatServer</span>=<span class="ruby-keyword">nil</span>)
+  <span class="ruby-ivar">@userList</span> = <span class="ruby-constant">UserRepository</span>.<span class="ruby-identifier">new</span>
+  <span class="ruby-ivar">@userIdList</span> = <span class="ruby-constant">Array</span>.<span class="ruby-identifier">new</span>
+  <span class="ruby-ivar">@chatServer</span> = <span class="ruby-identifier">chatServer</span>
+  <span class="ruby-ivar">@name</span> = <span class="ruby-identifier">name</span>
+  <span class="ruby-ivar">@id</span> = <span class="ruby-identifier">id</span>
+  <span class="ruby-ivar">@type</span> = <span class="ruby-identifier">type</span>
+  <span class="ruby-ivar">@userList</span>.<span class="ruby-identifier">addContentChangedListener</span>(<span class="ruby-keyword">self</span>)
+  <span class="ruby-ivar">@mysqlHelper</span> = <span class="ruby-constant">MysqlHelper</span>.<span class="ruby-identifier">new</span><span class="ruby-comment">#(MysqlHelper::DB_ADRESS,&quot;root&quot;,&quot;root&quot;,MysqlHelper::DB_NAME)</span>
+  <span class="ruby-ivar">@numUser</span> = <span class="ruby-value">0</span>
+  <span class="ruby-ivar">@BOT</span>
+  <span class="ruby-identifier">init</span>()
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- new-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- new-method -->
+
+      
+      </div><!-- public-class-method-details -->
+    
+      <div id="public-instance-method-details" class="method-section section">
+        <h3 class="section-header">Public Instance Methods</h3>
+
+      
+        <div id="getBot-method" class="method-detail ">
+          <a name="method-i-getBot"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">getBot</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Return the bot of the server</p>
+            
+
+            
+            <div class="method-source-code" id="getBot-source">
+<pre>
+<span class="ruby-comment"># File lib/class/channel.rb, line 48</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">getBot</span>
+  <span class="ruby-ivar">@BOT</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- getBot-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- getBot-method -->
+
+      
+        <div id="getId-method" class="method-detail ">
+          <a name="method-i-getId"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">getId</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Return the id of the channel</p>
+            
+
+            
+            <div class="method-source-code" id="getId-source">
+<pre>
+<span class="ruby-comment"># File lib/class/channel.rb, line 62</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">getId</span>
+  <span class="ruby-ivar">@id</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- getId-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- getId-method -->
+
+      
+        <div id="getName-method" class="method-detail ">
+          <a name="method-i-getName"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">getName</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Return the name of the channel</p>
+            
+
+            
+            <div class="method-source-code" id="getName-source">
+<pre>
+<span class="ruby-comment"># File lib/class/channel.rb, line 55</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">getName</span>
+  <span class="ruby-ivar">@name</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- getName-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- getName-method -->
+
+      
+        <div id="getType-method" class="method-detail ">
+          <a name="method-i-getType"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">getType</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="getType-source">
+<pre>
+<span class="ruby-comment"># File lib/class/channel.rb, line 34</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">getType</span>()
+  <span class="ruby-ivar">@type</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- getType-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- getType-method -->
+
+      
+        <div id="getUserById-method" class="method-detail ">
+          <a name="method-i-getUserById"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">getUserById</span><span
+              class="method-args">(id)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="getUserById-source">
+<pre>
+<span class="ruby-comment"># File lib/class/channel.rb, line 122</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">getUserById</span>(<span class="ruby-identifier">id</span>)
+  <span class="ruby-ivar">@userList</span>.<span class="ruby-identifier">getcontents</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">user</span><span class="ruby-operator">|</span> 
+  
+    <span class="ruby-keyword">return</span> <span class="ruby-identifier">user</span> <span class="ruby-keyword">if</span>(<span class="ruby-node">&quot;#{user.getId}&quot;</span> <span class="ruby-operator">==</span> <span class="ruby-identifier">id</span>)
+      
+     
+  }
+  <span class="ruby-keyword">return</span> <span class="ruby-keyword">nil</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- getUserById-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- getUserById-method -->
+
+      
+        <div id="getUserList-method" class="method-detail ">
+          <a name="method-i-getUserList"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">getUserList</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Return the list of user in the channel</p>
+            
+
+            
+            <div class="method-source-code" id="getUserList-source">
+<pre>
+<span class="ruby-comment"># File lib/class/channel.rb, line 41</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">getUserList</span>
+  <span class="ruby-ivar">@userList</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- getUserList-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- getUserList-method -->
+
+      
+        <div id="init-method" class="method-detail ">
+          <a name="method-i-init"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">init</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Init some stuff of the channel</p>
+            
+
+            
+            <div class="method-source-code" id="init-source">
+<pre>
+<span class="ruby-comment"># File lib/class/channel.rb, line 25</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">init</span>
+    <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;Loading Bot...&quot;</span>
+    <span class="ruby-ivar">@BOT</span> = <span class="ruby-constant">Bot</span>.<span class="ruby-identifier">new</span>(<span class="ruby-keyword">self</span>)
+    <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;Loading Bot... Done!&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- init-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- init-method -->
+
+      
+        <div id="isIn-method" class="method-detail ">
+          <a name="method-i-isIn"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">isIn</span><span
+              class="method-args">(user)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Check if an user is in the channel</p>
+            
+
+            
+            <div class="method-source-code" id="isIn-source">
+<pre>
+<span class="ruby-comment"># File lib/class/channel.rb, line 135</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">isIn</span>(<span class="ruby-identifier">user</span>)
+  
+  
+  <span class="ruby-ivar">@userList</span>.<span class="ruby-identifier">getcontents</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">users</span><span class="ruby-operator">|</span> 
+  
+    <span class="ruby-keyword">return</span> <span class="ruby-keyword">true</span> <span class="ruby-keyword">if</span>(<span class="ruby-identifier">user</span> <span class="ruby-operator">==</span> <span class="ruby-identifier">users</span>)
+     
+    
+  }
+  
+  <span class="ruby-keyword">return</span> <span class="ruby-keyword">false</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- isIn-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- isIn-method -->
+
+      
+        <div id="join-method" class="method-detail ">
+          <a name="method-i-join"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">join</span><span
+              class="method-args">(user)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Add user in the channel</p>
+            
+
+            
+            <div class="method-source-code" id="join-source">
+<pre>
+<span class="ruby-comment"># File lib/class/channel.rb, line 68</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">join</span>(<span class="ruby-identifier">user</span>)
+  
+  
+  <span class="ruby-ivar">@mysqlHelper</span>.<span class="ruby-identifier">insertConUser</span>(<span class="ruby-identifier">user</span>.<span class="ruby-identifier">getI</span>,<span class="ruby-ivar">@id</span>)
+  <span class="ruby-ivar">@userList</span>.<span class="ruby-identifier">add</span>(<span class="ruby-identifier">user</span>)
+  <span class="ruby-ivar">@userIdList</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">user</span>.<span class="ruby-identifier">getI</span>
+  
+ <span class="ruby-comment"># @userList.getcontents.each { |users| </span>
+    
+ <span class="ruby-comment">#   users.userChangeFromChannel(&quot;204&quot;, @id, user.getId)</span>
+ <span class="ruby-comment"># }</span>
+  
+   
+  
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- join-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- join-method -->
+
+      
+        <div id="onContentAdded-method" class="method-detail ">
+          <a name="method-i-onContentAdded"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">onContentAdded</span><span
+              class="method-args">(source,data)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="onContentAdded-source">
+<pre>
+<span class="ruby-comment"># File lib/class/channel.rb, line 156</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">onContentAdded</span>(<span class="ruby-identifier">source</span>,<span class="ruby-identifier">data</span>)
+  <span class="ruby-ivar">@numUser</span>  = <span class="ruby-ivar">@numUser</span> <span class="ruby-operator">+</span> <span class="ruby-value">1</span>
+  <span class="ruby-ivar">@BOT</span>.<span class="ruby-identifier">userConnected</span>(<span class="ruby-identifier">data</span>)
+  <span class="ruby-keyword">if</span> <span class="ruby-ivar">@numUser</span> <span class="ruby-operator">==</span> <span class="ruby-value">1</span>
+    <span class="ruby-ivar">@BOT</span>.<span class="ruby-identifier">channelIsEmpty</span>=<span class="ruby-keyword">false</span>
+  <span class="ruby-keyword">end</span>
+  
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- onContentAdded-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- onContentAdded-method -->
+
+      
+        <div id="onContentChanged-method" class="method-detail ">
+          <a name="method-i-onContentChanged"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">onContentChanged</span><span
+              class="method-args">(source,data)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="onContentChanged-source">
+<pre>
+<span class="ruby-comment"># File lib/class/channel.rb, line 150</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">onContentChanged</span>(<span class="ruby-identifier">source</span>,<span class="ruby-identifier">data</span>)
+  
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- onContentChanged-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- onContentChanged-method -->
+
+      
+        <div id="onContentRemoved-method" class="method-detail ">
+          <a name="method-i-onContentRemoved"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">onContentRemoved</span><span
+              class="method-args">(souce,data)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="onContentRemoved-source">
+<pre>
+<span class="ruby-comment"># File lib/class/channel.rb, line 167</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">onContentRemoved</span>(<span class="ruby-identifier">souce</span>,<span class="ruby-identifier">data</span>)
+  <span class="ruby-ivar">@numUser</span>  = <span class="ruby-ivar">@numUser</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>
+  <span class="ruby-ivar">@BOT</span>.<span class="ruby-identifier">userDisConnected</span>(<span class="ruby-identifier">data</span>)
+  <span class="ruby-keyword">if</span> <span class="ruby-ivar">@numUser</span> <span class="ruby-operator">==</span> <span class="ruby-value">0</span>
+    <span class="ruby-ivar">@BOT</span>.<span class="ruby-identifier">channelIsEmpty</span>=<span class="ruby-keyword">true</span>
+  <span class="ruby-keyword">end</span>
+  
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- onContentRemoved-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- onContentRemoved-method -->
+
+      
+        <div id="remove-method" class="method-detail ">
+          <a name="method-i-remove"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">remove</span><span
+              class="method-args">(user)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Remove user from the channel</p>
+            
+
+            
+            <div class="method-source-code" id="remove-source">
+<pre>
+<span class="ruby-comment"># File lib/class/channel.rb, line 86</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">remove</span>(<span class="ruby-identifier">user</span>)
+  <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;Channel : removing user....!&quot;</span>
+  <span class="ruby-keyword">if</span>(<span class="ruby-keyword">self</span>.<span class="ruby-identifier">isIn</span>(<span class="ruby-identifier">user</span>))
+    <span class="ruby-ivar">@mysqlHelper</span>.<span class="ruby-identifier">deleteDisConUser</span>(<span class="ruby-identifier">user</span>.<span class="ruby-identifier">getI</span>, <span class="ruby-ivar">@id</span>)
+    <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;Channel : removing user from chan list....!&quot;</span>
+    <span class="ruby-ivar">@userList</span>.<span class="ruby-identifier">remove</span>(<span class="ruby-identifier">user</span>)
+    <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;Channel : removing user from chan list....!Done&quot;</span>
+    <span class="ruby-ivar">@userList</span>.<span class="ruby-identifier">getcontents</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">users</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">users</span>.<span class="ruby-identifier">userChangeFromChannel</span>(<span class="ruby-string">&quot;205&quot;</span>, <span class="ruby-ivar">@id</span>, <span class="ruby-identifier">user</span>.<span class="ruby-identifier">getId</span>)
+    }
+  <span class="ruby-keyword">end</span>
+  
+  
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- remove-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- remove-method -->
+
+      
+        <div id="send-method" class="method-detail ">
+          <a name="method-i-send"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">send</span><span
+              class="method-args">(fromIdUser,msg)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Send message to all users in this channel</p>
+            
+
+            
+            <div class="method-source-code" id="send-source">
+<pre>
+<span class="ruby-comment"># File lib/class/channel.rb, line 103</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">send</span>(<span class="ruby-identifier">fromIdUser</span>,<span class="ruby-identifier">msg</span>)
+  <span class="ruby-comment">#TODO : add exception for the sender!</span>
+  <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;Channel : send()&quot;</span>
+  <span class="ruby-ivar">@userList</span>.<span class="ruby-identifier">getcontents</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">user</span><span class="ruby-operator">|</span> 
+  
+    <span class="ruby-identifier">user</span>.<span class="ruby-identifier">receiveFromChannel</span>(<span class="ruby-ivar">@id</span>, <span class="ruby-identifier">fromIdUser</span>, <span class="ruby-identifier">msg</span>)
+    
+  }
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- send-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- send-method -->
+
+      
+        <div id="sendToBot-method" class="method-detail ">
+          <a name="method-i-sendToBot"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">sendToBot</span><span
+              class="method-args">(fromIdUser,msg)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Send message to <a href="Bot.html">Bot</a></p>
+            
+
+            
+            <div class="method-source-code" id="sendToBot-source">
+<pre>
+<span class="ruby-comment"># File lib/class/channel.rb, line 115</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">sendToBot</span>(<span class="ruby-identifier">fromIdUser</span>,<span class="ruby-identifier">msg</span>)
+  <span class="ruby-ivar">@BOT</span>.<span class="ruby-identifier">receive_answer</span>(<span class="ruby-identifier">msg</span>, <span class="ruby-identifier">getUserById</span>(<span class="ruby-identifier">fromIdUser</span>))
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- sendToBot-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- sendToBot-method -->
+
+      
+        <div id="to_s-method" class="method-detail ">
+          <a name="method-i-to_s"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">to_s</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="to_s-source">
+<pre>
+<span class="ruby-comment"># File lib/class/channel.rb, line 178</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">to_s</span>
+  <span class="ruby-node">&quot;Channel : Name = #{@name} Id = #{@id} type: #{@type}&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- to_s-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- to_s-method -->
+
+      
+      </div><!-- public-instance-method-details -->
+    
+    </div><!-- 5Buntitled-5D -->
+  
+
+  </div><!-- documentation -->
+
+  <div id="validator-badges">
+    <p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+    <p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
+      Rdoc Generator</a> 2</small>.</p>
+  </div>
+
+</body>
+</html>
+
