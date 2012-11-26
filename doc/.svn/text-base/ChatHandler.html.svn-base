@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+
+  <title>Class: ChatHandler</title>
+
+  <link rel="stylesheet" href="./rdoc.css" type="text/css" media="screen" />
+
+  <script src="./js/jquery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/thickbox-compressed.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/quicksearch.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/darkfish.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+<body id="top" class="class">
+
+  <div id="metadata">
+    <div id="home-metadata">
+      <div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="./index.html">Home</a>
+          <a href="./index.html#classes">Classes</a>
+          <a href="./index.html#methods">Methods</a>
+        </h3>
+      </div>
+    </div>
+
+    <div id="file-metadata">
+      <div id="file-list-section" class="section">
+        <h3 class="section-header">In Files</h3>
+        <div class="section-body">
+          <ul>
+          
+            <li><a href="./lib/class/chat_handler_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/class/chat_handler.rb">lib/class/chat_handler.rb</a></li>
+          
+          </ul>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <div id="class-metadata">
+      
+      <!-- Parent Class -->
+      <div id="parent-class-section" class="section">
+        <h3 class="section-header">Parent</h3>
+        
+        <p class="link">Object</p>
+        
+      </div>
+      
+
+      
+
+      
+
+      
+      <!-- Method Quickref -->
+      <div id="method-list-section" class="section">
+        <h3 class="section-header">Methods</h3>
+        <ul class="link-list">
+          
+          <li><a href="#method-c-new">::new</a></li>
+          
+          <li><a href="#method-i-getChannelList">#getChannelList</a></li>
+          
+          <li><a href="#method-i-getChannelListByType">#getChannelListByType</a></li>
+          
+          <li><a href="#method-i-getUserListInChannel">#getUserListInChannel</a></li>
+          
+        </ul>
+      </div>
+      
+
+      
+    </div>
+
+    <div id="project-metadata">
+      
+      
+      <div id="fileindex-section" class="section project-section">
+        <h3 class="section-header">Files</h3>
+        <ul>
+        
+          <li class="file"><a href="./LICENSE.html">LICENSE</a></li>
+        
+          <li class="file"><a href="./README.html">README</a></li>
+        
+          <li class="file"><a href="./README 2.html">README 2</a></li>
+        
+          <li class="file"><a href="./Rakefile.html">Rakefile</a></li>
+        
+          <li class="file"><a href="./lib/Gemfile.html">Gemfile</a></li>
+        
+          <li class="file"><a href="./lib/LICENSE.html">LICENSE</a></li>
+        
+          <li class="file"><a href="./lib/ssl/crt.html">crt</a></li>
+        
+          <li class="file"><a href="./lib/ssl/key.html">key</a></li>
+        
+          <li class="file"><a href="./nbproject/private/rake-d_txt.html">rake-d.txt</a></li>
+        
+        </ul>
+      </div>
+      
+
+      <div id="classindex-section" class="section project-section">
+        <h3 class="section-header">Class/Module Index
+          <span class="search-toggle"><img src="./images/find.png"
+            height="16" width="16" alt="[+]"
+            title="show/hide quicksearch" /></span></h3>
+        <form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
+        <fieldset>
+          <legend>Quicksearch</legend>
+          <input type="text" name="quicksearch" value=""
+            class="quicksearch-field" />
+        </fieldset>
+        </form>
+
+        <ul class="link-list">
+        
+          <li><a href="./Bot.html">Bot</a></li>
+        
+          <li><a href="./Channel.html">Channel</a></li>
+        
+          <li><a href="./ChannelRepository.html">ChannelRepository</a></li>
+        
+          <li><a href="./ChatHandler.html">ChatHandler</a></li>
+        
+          <li><a href="./ChatServer.html">ChatServer</a></li>
+        
+          <li><a href="./Client.html">Client</a></li>
+        
+          <li><a href="./ContentChanged.html">ContentChanged</a></li>
+        
+          <li><a href="./Log.html">Log</a></li>
+        
+          <li><a href="./MailHelper.html">MailHelper</a></li>
+        
+          <li><a href="./MysqlHelper.html">MysqlHelper</a></li>
+        
+          <li><a href="./QuizChannel.html">QuizChannel</a></li>
+        
+          <li><a href="./QuizUer.html">QuizUer</a></li>
+        
+          <li><a href="./QuizUser.html">QuizUser</a></li>
+        
+          <li><a href="./Repository.html">Repository</a></li>
+        
+          <li><a href="./Submit.html">Submit</a></li>
+        
+          <li><a href="./TestSubmit.html">TestSubmit</a></li>
+        
+          <li><a href="./ThreadRepository.html">ThreadRepository</a></li>
+        
+          <li><a href="./User.html">User</a></li>
+        
+          <li><a href="./UserHandler.html">UserHandler</a></li>
+        
+          <li><a href="./UserRepository.html">UserRepository</a></li>
+        
+          <li><a href="./Utility.html">Utility</a></li>
+        
+          <li><a href="./WebAppServer.html">WebAppServer</a></li>
+        
+          <li><a href="./WebAppSubmit.html">WebAppSubmit</a></li>
+        
+        </ul>
+        <div id="no-class-search-results" style="display: none;">No matching classes.</div>
+      </div>
+
+      
+    </div>
+  </div>
+
+  <div id="documentation">
+    <h1 class="class">ChatHandler</h1>
+
+    <div id="description" class="description">
+      
+    </div><!-- description -->
+
+    
+    
+    
+    <div id="5Buntitled-5D" class="documentation-section">
+      
+
+      
+
+      
+
+      
+
+      <!-- Methods -->
+      
+      <div id="public-class-method-details" class="method-section section">
+        <h3 class="section-header">Public Class Methods</h3>
+
+      
+        <div id="new-method" class="method-detail ">
+          <a name="method-c-new"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">new</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="new-source">
+<pre>
+<span class="ruby-comment"># File lib/class/chat_handler.rb, line 6</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>
+  <span class="ruby-ivar">@mysqlHelper</span> = <span class="ruby-constant">MysqlHelper</span>.<span class="ruby-identifier">new</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- new-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- new-method -->
+
+      
+      </div><!-- public-class-method-details -->
+    
+      <div id="public-instance-method-details" class="method-section section">
+        <h3 class="section-header">Public Instance Methods</h3>
+
+      
+        <div id="getChannelList-method" class="method-detail ">
+          <a name="method-i-getChannelList"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">getChannelList</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Return an array of hash channels</p>
+
+<p>[{ “name”=&gt;“chan_name”,</p>
+
+<pre>&quot;id&quot;=&gt;&quot;456422&quot;, 
+&quot;connected&quot;=&gt;&quot;1&quot;, 
+&quot;user_list&quot;=&gt;[{&quot;id&quot;=&gt;&quot;123456&quot;, 
+              &quot;last_name&quot;=&gt;&quot;Doe&quot;, 
+              &quot;first_name&quot;=&gt;&quot;Jhon&quot;, 
+              &quot;img_url&quot;=&gt;&quot;http://pic.com/pic.png&quot;}]</pre>
+
+<p>},…]</p>
+            
+
+            
+            <div class="method-source-code" id="getChannelList-source">
+<pre>
+<span class="ruby-comment"># File lib/class/chat_handler.rb, line 23</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">getChannelList</span>()
+  <span class="ruby-identifier">chanList</span> = <span class="ruby-ivar">@mysqlHelper</span>.<span class="ruby-identifier">getChannelList</span>
+  
+  <span class="ruby-identifier">chanList</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">chan</span><span class="ruby-operator">|</span> 
+    <span class="ruby-identifier">userlist</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">getUserListInChannel</span>(<span class="ruby-identifier">chan</span>[<span class="ruby-string">&quot;id&quot;</span>])
+    <span class="ruby-identifier">chan</span>[<span class="ruby-string">&quot;connected&quot;</span>] = <span class="ruby-identifier">userlist</span>.<span class="ruby-identifier">count</span>
+    <span class="ruby-identifier">chan</span>[<span class="ruby-string">&quot;user_list&quot;</span>] = <span class="ruby-identifier">userlist</span>
+  }
+  <span class="ruby-identifier">chanList</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- getChannelList-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- getChannelList-method -->
+
+      
+        <div id="getChannelListByType-method" class="method-detail ">
+          <a name="method-i-getChannelListByType"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">getChannelListByType</span><span
+              class="method-args">(type)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="getChannelListByType-source">
+<pre>
+<span class="ruby-comment"># File lib/class/chat_handler.rb, line 37</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">getChannelListByType</span>(<span class="ruby-identifier">type</span>)
+  <span class="ruby-identifier">chanList</span> = <span class="ruby-ivar">@mysqlHelper</span>.<span class="ruby-identifier">getChannelListByType</span>(<span class="ruby-identifier">type</span>)
+  <span class="ruby-identifier">listCat</span> = <span class="ruby-constant">Array</span>.<span class="ruby-identifier">new</span>
+  <span class="ruby-identifier">chanList</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">chan</span><span class="ruby-operator">|</span> 
+   <span class="ruby-identifier">listCat</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">chan</span>[<span class="ruby-string">'category'</span>]
+  }
+  <span class="ruby-identifier">listCat</span>.<span class="ruby-identifier">uniq</span>
+  <span class="ruby-identifier">chanL</span> = <span class="ruby-constant">Hash</span>.<span class="ruby-identifier">new</span>
+  <span class="ruby-identifier">listCat</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">item</span><span class="ruby-operator">|</span> 
+    <span class="ruby-identifier">chanL</span>[<span class="ruby-node">&quot;#{item}&quot;</span>] = <span class="ruby-constant">Array</span>.<span class="ruby-identifier">new</span> 
+  }
+  <span class="ruby-identifier">chanList</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">chan</span><span class="ruby-operator">|</span> 
+   <span class="ruby-identifier">chanL</span>[<span class="ruby-node">&quot;#{chan['category']}&quot;</span>] <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">chan</span>
+  }
+  <span class="ruby-identifier">chanL</span>
+  
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- getChannelListByType-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- getChannelListByType-method -->
+
+      
+        <div id="getUserListInChannel-method" class="method-detail ">
+          <a name="method-i-getUserListInChannel"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">getUserListInChannel</span><span
+              class="method-args">(idChannel)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Return the list of user in a channel</p>
+            
+
+            
+            <div class="method-source-code" id="getUserListInChannel-source">
+<pre>
+<span class="ruby-comment"># File lib/class/chat_handler.rb, line 57</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">getUserListInChannel</span>(<span class="ruby-identifier">idChannel</span>)
+  <span class="ruby-ivar">@mysqlHelper</span>.<span class="ruby-identifier">getUserListInchannel</span>(<span class="ruby-identifier">idChannel</span>)
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- getUserListInChannel-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- getUserListInChannel-method -->
+
+      
+      </div><!-- public-instance-method-details -->
+    
+    </div><!-- 5Buntitled-5D -->
+  
+
+  </div><!-- documentation -->
+
+  <div id="validator-badges">
+    <p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+    <p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
+      Rdoc Generator</a> 2</small>.</p>
+  </div>
+
+</body>
+</html>
+

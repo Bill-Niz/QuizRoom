@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+
+  <title>Class: User</title>
+
+  <link rel="stylesheet" href="./rdoc.css" type="text/css" media="screen" />
+
+  <script src="./js/jquery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/thickbox-compressed.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/quicksearch.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/darkfish.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+<body id="top" class="class">
+
+  <div id="metadata">
+    <div id="home-metadata">
+      <div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="./index.html">Home</a>
+          <a href="./index.html#classes">Classes</a>
+          <a href="./index.html#methods">Methods</a>
+        </h3>
+      </div>
+    </div>
+
+    <div id="file-metadata">
+      <div id="file-list-section" class="section">
+        <h3 class="section-header">In Files</h3>
+        <div class="section-body">
+          <ul>
+          
+            <li><a href="./lib/class/user_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/class/user.rb">lib/class/user.rb</a></li>
+          
+          </ul>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <div id="class-metadata">
+      
+      <!-- Parent Class -->
+      <div id="parent-class-section" class="section">
+        <h3 class="section-header">Parent</h3>
+        
+        <p class="link">Object</p>
+        
+      </div>
+      
+
+      
+
+      
+
+      
+      <!-- Method Quickref -->
+      <div id="method-list-section" class="section">
+        <h3 class="section-header">Methods</h3>
+        <ul class="link-list">
+          
+          <li><a href="#method-c-new">::new</a></li>
+          
+          <li><a href="#method-i-connected-3F">#connected?</a></li>
+          
+          <li><a href="#method-i-getI">#getI</a></li>
+          
+          <li><a href="#method-i-getId">#getId</a></li>
+          
+          <li><a href="#method-i-isActive-3F">#isActive?</a></li>
+          
+          <li><a href="#method-i-isLogged-3F">#isLogged?</a></li>
+          
+          <li><a href="#method-i-isSendAble-3F">#isSendAble?</a></li>
+          
+          <li><a href="#method-i-makeReadyAfter">#makeReadyAfter</a></li>
+          
+          <li><a href="#method-i-ready-3D">#ready=</a></li>
+          
+          <li><a href="#method-i-ready-3F">#ready?</a></li>
+          
+          <li><a href="#method-i-receiveAnswer">#receiveAnswer</a></li>
+          
+          <li><a href="#method-i-receiveFromChannel">#receiveFromChannel</a></li>
+          
+          <li><a href="#method-i-receiveFromQuizChannel">#receiveFromQuizChannel</a></li>
+          
+          <li><a href="#method-i-receiveFromUser">#receiveFromUser</a></li>
+          
+          <li><a href="#method-i-receiveQuestion">#receiveQuestion</a></li>
+          
+          <li><a href="#method-i-repeat_every">#repeat_every</a></li>
+          
+          <li><a href="#method-i-run">#run</a></li>
+          
+          <li><a href="#method-i-send">#send</a></li>
+          
+          <li><a href="#method-i-setId">#setId</a></li>
+          
+          <li><a href="#method-i-userChangeFromChannel">#userChangeFromChannel</a></li>
+          
+          <li><a href="#method-i-waitFor">#waitFor</a></li>
+          
+        </ul>
+      </div>
+      
+
+      
+    </div>
+
+    <div id="project-metadata">
+      
+      
+      <div id="fileindex-section" class="section project-section">
+        <h3 class="section-header">Files</h3>
+        <ul>
+        
+          <li class="file"><a href="./LICENSE.html">LICENSE</a></li>
+        
+          <li class="file"><a href="./README.html">README</a></li>
+        
+          <li class="file"><a href="./README 2.html">README 2</a></li>
+        
+          <li class="file"><a href="./Rakefile.html">Rakefile</a></li>
+        
+          <li class="file"><a href="./lib/Gemfile.html">Gemfile</a></li>
+        
+          <li class="file"><a href="./lib/LICENSE.html">LICENSE</a></li>
+        
+          <li class="file"><a href="./lib/ssl/crt.html">crt</a></li>
+        
+          <li class="file"><a href="./lib/ssl/key.html">key</a></li>
+        
+          <li class="file"><a href="./nbproject/private/rake-d_txt.html">rake-d.txt</a></li>
+        
+        </ul>
+      </div>
+      
+
+      <div id="classindex-section" class="section project-section">
+        <h3 class="section-header">Class/Module Index
+          <span class="search-toggle"><img src="./images/find.png"
+            height="16" width="16" alt="[+]"
+            title="show/hide quicksearch" /></span></h3>
+        <form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
+        <fieldset>
+          <legend>Quicksearch</legend>
+          <input type="text" name="quicksearch" value=""
+            class="quicksearch-field" />
+        </fieldset>
+        </form>
+
+        <ul class="link-list">
+        
+          <li><a href="./Bot.html">Bot</a></li>
+        
+          <li><a href="./Channel.html">Channel</a></li>
+        
+          <li><a href="./ChannelRepository.html">ChannelRepository</a></li>
+        
+          <li><a href="./ChatHandler.html">ChatHandler</a></li>
+        
+          <li><a href="./ChatServer.html">ChatServer</a></li>
+        
+          <li><a href="./Client.html">Client</a></li>
+        
+          <li><a href="./ContentChanged.html">ContentChanged</a></li>
+        
+          <li><a href="./Log.html">Log</a></li>
+        
+          <li><a href="./MailHelper.html">MailHelper</a></li>
+        
+          <li><a href="./MysqlHelper.html">MysqlHelper</a></li>
+        
+          <li><a href="./QuizChannel.html">QuizChannel</a></li>
+        
+          <li><a href="./QuizUer.html">QuizUer</a></li>
+        
+          <li><a href="./QuizUser.html">QuizUser</a></li>
+        
+          <li><a href="./Repository.html">Repository</a></li>
+        
+          <li><a href="./Submit.html">Submit</a></li>
+        
+          <li><a href="./TestSubmit.html">TestSubmit</a></li>
+        
+          <li><a href="./ThreadRepository.html">ThreadRepository</a></li>
+        
+          <li><a href="./User.html">User</a></li>
+        
+          <li><a href="./UserHandler.html">UserHandler</a></li>
+        
+          <li><a href="./UserRepository.html">UserRepository</a></li>
+        
+          <li><a href="./Utility.html">Utility</a></li>
+        
+          <li><a href="./WebAppServer.html">WebAppServer</a></li>
+        
+          <li><a href="./WebAppSubmit.html">WebAppSubmit</a></li>
+        
+        </ul>
+        <div id="no-class-search-results" style="display: none;">No matching classes.</div>
+      </div>
+
+      
+    </div>
+  </div>
+
+  <div id="documentation">
+    <h1 class="class">User</h1>
+
+    <div id="description" class="description">
+      
+<p>Data format</p>
+
+<p>Reception 100/  : Code for <a href="User.html">User</a> manager 200/  :
+Code for Chat manager 300  : Code for Quiz manage</p>
+
+<p>Reponse 400/ : <a href="User.html#OK">OK</a> 500/ : <a
+href="User.html#NOK">NOK</a></p>
+
+    </div><!-- description -->
+
+    
+    
+    
+    <div id="5Buntitled-5D" class="documentation-section">
+      
+
+      
+
+      
+      <!-- Constants -->
+      <div id="constants-list" class="section">
+        <h3 class="section-header">Constants</h3>
+        <dl>
+        
+          <dt><a name="NOK">NOK</a></dt>
+          
+          <dd class="description"></dd>
+          
+        
+          <dt><a name="NOK_BAD_LOGGING">NOK_BAD_LOGGING</a></dt>
+          
+          <dd class="description"></dd>
+          
+        
+          <dt><a name="NOK_UNKNOWN_COMMAND">NOK_UNKNOWN_COMMAND</a></dt>
+          
+          <dd class="description"></dd>
+          
+        
+          <dt><a name="OK">OK</a></dt>
+          
+          <dd class="description"></dd>
+          
+        
+          <dt><a name="OK_LOGGEG">OK_LOGGEG</a></dt>
+          
+          <dd class="description"></dd>
+          
+        
+        </dl>
+      </div>
+      
+
+      
+
+      <!-- Methods -->
+      
+      <div id="public-class-method-details" class="method-section section">
+        <h3 class="section-header">Public Class Methods</h3>
+
+      
+        <div id="new-method" class="method-detail ">
+          <a name="method-c-new"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">new</span><span
+              class="method-args">(socket,chatServer)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="new-source">
+<pre>
+<span class="ruby-comment"># File lib/class/user.rb, line 31</span>
+  <span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">socket</span>,<span class="ruby-identifier">chatServer</span>)
+    <span class="ruby-ivar">@uuid</span> = <span class="ruby-string">&quot;&quot;</span>
+    <span class="ruby-ivar">@id</span> = <span class="ruby-string">&quot;&quot;</span>
+    <span class="ruby-ivar">@socket</span> = <span class="ruby-identifier">socket</span>
+    <span class="ruby-ivar">@chatServer</span> = <span class="ruby-identifier">chatServer</span>
+    <span class="ruby-ivar">@mysqlHelper</span> = <span class="ruby-constant">MysqlHelper</span>.<span class="ruby-identifier">new</span>
+    <span class="ruby-ivar">@ready</span>=<span class="ruby-keyword">false</span>
+    <span class="ruby-ivar">@connected</span> = <span class="ruby-keyword">true</span>
+    <span class="ruby-ivar">@logged</span> = <span class="ruby-keyword">false</span>         <span class="ruby-comment"># =&gt; know if user is authentified</span>
+    <span class="ruby-ivar">@isActive</span> = <span class="ruby-keyword">true</span>       <span class="ruby-comment"># =&gt; user connected but the app is in background</span>
+    
+  <span class="ruby-comment">#  @thread = repeat_every(5) do</span>
+  <span class="ruby-comment">#@socket.puts(Time.now.ctime)</span>
+<span class="ruby-comment">#end  </span>
+    
+  <span class="ruby-keyword">end</span></pre>
+            </div><!-- new-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- new-method -->
+
+      
+      </div><!-- public-class-method-details -->
+    
+      <div id="public-instance-method-details" class="method-section section">
+        <h3 class="section-header">Public Instance Methods</h3>
+
+      
+        <div id="connected-3F-method" class="method-detail ">
+          <a name="method-i-connected-3F"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">connected?</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Check if the client is still connected</p>
+            
+
+            
+            <div class="method-source-code" id="connected-3F-source">
+<pre>
+<span class="ruby-comment"># File lib/class/user.rb, line 177</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">connected?</span>
+  <span class="ruby-ivar">@connected</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-operator">!</span>(<span class="ruby-ivar">@socket</span>.<span class="ruby-identifier">closed?</span>) 
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- connected-3F-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- connected-3F-method -->
+
+      
+        <div id="getI-method" class="method-detail ">
+          <a name="method-i-getI"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">getI</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Get the user id</p>
+            
+
+            
+            <div class="method-source-code" id="getI-source">
+<pre>
+<span class="ruby-comment"># File lib/class/user.rb, line 247</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">getI</span>
+  <span class="ruby-keyword">return</span> <span class="ruby-ivar">@id</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- getI-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- getI-method -->
+
+      
+        <div id="getId-method" class="method-detail ">
+          <a name="method-i-getId"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">getId</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Get the user uuid</p>
+            
+
+            
+            <div class="method-source-code" id="getId-source">
+<pre>
+<span class="ruby-comment"># File lib/class/user.rb, line 241</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">getId</span>
+  <span class="ruby-keyword">return</span> <span class="ruby-ivar">@uuid</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- getId-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- getId-method -->
+
+      
+        <div id="isActive-3F-method" class="method-detail ">
+          <a name="method-i-isActive-3F"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">isActive?</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Check if the client is active</p>
+            
+
+            
+            <div class="method-source-code" id="isActive-3F-source">
+<pre>
+<span class="ruby-comment"># File lib/class/user.rb, line 191</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">isActive?</span>
+  <span class="ruby-ivar">@isActive</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- isActive-3F-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- isActive-3F-method -->
+
+      
+        <div id="isLogged-3F-method" class="method-detail ">
+          <a name="method-i-isLogged-3F"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">isLogged?</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Check if the client isLogged</p>
+            
+
+            
+            <div class="method-source-code" id="isLogged-3F-source">
+<pre>
+<span class="ruby-comment"># File lib/class/user.rb, line 184</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">isLogged?</span>
+  <span class="ruby-ivar">@logged</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- isLogged-3F-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- isLogged-3F-method -->
+
+      
+        <div id="isSendAble-3F-method" class="method-detail ">
+          <a name="method-i-isSendAble-3F"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">isSendAble?</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Check if when can send data to client</p>
+            
+
+            
+            <div class="method-source-code" id="isSendAble-3F-source">
+<pre>
+<span class="ruby-comment"># File lib/class/user.rb, line 197</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">isSendAble?</span>
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">connected?</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">isActive?</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- isSendAble-3F-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- isSendAble-3F-method -->
+
+      
+        <div id="makeReadyAfter-method" class="method-detail ">
+          <a name="method-i-makeReadyAfter"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">makeReadyAfter</span><span
+              class="method-args">(second)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="makeReadyAfter-source">
+<pre>
+<span class="ruby-comment"># File lib/class/user.rb, line 328</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">makeReadyAfter</span>(<span class="ruby-identifier">second</span>)
+  <span class="ruby-identifier">t</span> = <span class="ruby-identifier">waitFor</span>(<span class="ruby-identifier">second</span>) <span class="ruby-keyword">do</span>
+    <span class="ruby-ivar">@ready</span> = <span class="ruby-keyword">true</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- makeReadyAfter-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- makeReadyAfter-method -->
+
+      
+        <div id="ready-3D-method" class="method-detail ">
+          <a name="method-i-ready-3D"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">ready=</span><span
+              class="method-args">(value)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="ready-3D-source">
+<pre>
+<span class="ruby-comment"># File lib/class/user.rb, line 310</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">ready=</span>(<span class="ruby-identifier">value</span>)
+  <span class="ruby-ivar">@ready</span>=<span class="ruby-identifier">value</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- ready-3D-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- ready-3D-method -->
+
+      
+        <div id="ready-3F-method" class="method-detail ">
+          <a name="method-i-ready-3F"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">ready?</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="ready-3F-source">
+<pre>
+<span class="ruby-comment"># File lib/class/user.rb, line 303</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">ready?</span>
+  <span class="ruby-ivar">@ready</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- ready-3F-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- ready-3F-method -->
+
+      
+        <div id="receiveAnswer-method" class="method-detail ">
+          <a name="method-i-receiveAnswer"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">receiveAnswer</span><span
+              class="method-args">(fromIdChan,msg)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>receive answser</p>
+            
+
+            
+            <div class="method-source-code" id="receiveAnswer-source">
+<pre>
+<span class="ruby-comment"># File lib/class/user.rb, line 295</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">receiveAnswer</span>(<span class="ruby-identifier">fromIdChan</span>,<span class="ruby-identifier">msg</span>)
+  <span class="ruby-identifier">dataMsg</span> = <span class="ruby-node">&quot;331/#{fromIdChan}/#{msg}&quot;</span>
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">send</span>(<span class="ruby-identifier">dataMsg</span>)
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- receiveAnswer-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- receiveAnswer-method -->
+
+      
+        <div id="receiveFromChannel-method" class="method-detail ">
+          <a name="method-i-receiveFromChannel"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">receiveFromChannel</span><span
+              class="method-args">(fromIdChan,fromIdUser,msg)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>receive message from other user in the channe l</p>
+            
+
+            
+            <div class="method-source-code" id="receiveFromChannel-source">
+<pre>
+<span class="ruby-comment"># File lib/class/user.rb, line 222</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">receiveFromChannel</span>(<span class="ruby-identifier">fromIdChan</span>,<span class="ruby-identifier">fromIdUser</span>,<span class="ruby-identifier">msg</span>)
+  <span class="ruby-identifier">dataMsg</span> = <span class="ruby-node">&quot;220/#{fromIdChan}/#{fromIdUser}/#{msg}&quot;</span>
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">send</span>(<span class="ruby-identifier">dataMsg</span>)
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- receiveFromChannel-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- receiveFromChannel-method -->
+
+      
+        <div id="receiveFromQuizChannel-method" class="method-detail ">
+          <a name="method-i-receiveFromQuizChannel"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">receiveFromQuizChannel</span><span
+              class="method-args">(fromIdChan,msg)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>receive message from other user in the channel</p>
+            
+
+            
+            <div class="method-source-code" id="receiveFromQuizChannel-source">
+<pre>
+<span class="ruby-comment"># File lib/class/user.rb, line 279</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">receiveFromQuizChannel</span>(<span class="ruby-identifier">fromIdChan</span>,<span class="ruby-identifier">msg</span>)
+  <span class="ruby-identifier">dataMsg</span> = <span class="ruby-node">&quot;320/#{fromIdChan}/#{msg}&quot;</span>
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">send</span>(<span class="ruby-identifier">dataMsg</span>)
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- receiveFromQuizChannel-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- receiveFromQuizChannel-method -->
+
+      
+        <div id="receiveFromUser-method" class="method-detail ">
+          <a name="method-i-receiveFromUser"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">receiveFromUser</span><span
+              class="method-args">(fromId,msg)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>receive message from other user</p>
+            
+
+            
+            <div class="method-source-code" id="receiveFromUser-source">
+<pre>
+<span class="ruby-comment"># File lib/class/user.rb, line 215</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">receiveFromUser</span>(<span class="ruby-identifier">fromId</span>,<span class="ruby-identifier">msg</span>)
+  <span class="ruby-identifier">d</span> = <span class="ruby-node">&quot;210/#{fromId}/#{msg}&quot;</span>
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">send</span>(<span class="ruby-identifier">d</span>)
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- receiveFromUser-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- receiveFromUser-method -->
+
+      
+        <div id="receiveQuestion-method" class="method-detail ">
+          <a name="method-i-receiveQuestion"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">receiveQuestion</span><span
+              class="method-args">(fromIdChan,msg)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>receive question</p>
+            
+
+            
+            <div class="method-source-code" id="receiveQuestion-source">
+<pre>
+<span class="ruby-comment"># File lib/class/user.rb, line 287</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">receiveQuestion</span>(<span class="ruby-identifier">fromIdChan</span>,<span class="ruby-identifier">msg</span>)
+  <span class="ruby-identifier">dataMsg</span> = <span class="ruby-node">&quot;330/#{fromIdChan}/#{msg}&quot;</span>
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">send</span>(<span class="ruby-identifier">dataMsg</span>)
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- receiveQuestion-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- receiveQuestion-method -->
+
+      
+        <div id="repeat_every-method" class="method-detail ">
+          <a name="method-i-repeat_every"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">repeat_every</span><span
+              class="method-args">(interval)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="repeat_every-source">
+<pre>
+<span class="ruby-comment"># File lib/class/user.rb, line 48</span>
+  <span class="ruby-keyword">def</span> <span class="ruby-identifier">repeat_every</span>(<span class="ruby-identifier">interval</span>)
+  <span class="ruby-constant">Thread</span>.<span class="ruby-identifier">new</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-identifier">loop</span> <span class="ruby-keyword">do</span>
+      <span class="ruby-identifier">start_time</span> = <span class="ruby-constant">Time</span>.<span class="ruby-identifier">now</span>
+      <span class="ruby-keyword">yield</span>
+      <span class="ruby-identifier">elapsed</span> = <span class="ruby-constant">Time</span>.<span class="ruby-identifier">now</span> <span class="ruby-operator">-</span> <span class="ruby-identifier">start_time</span>
+      <span class="ruby-identifier">sleep</span>([<span class="ruby-identifier">interval</span> <span class="ruby-operator">-</span> <span class="ruby-identifier">elapsed</span>, <span class="ruby-value">0</span>].<span class="ruby-identifier">max</span>)
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- repeat_every-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- repeat_every-method -->
+
+      
+        <div id="run-method" class="method-detail ">
+          <a name="method-i-run"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">run</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Loop listening for incomming data</p>
+            
+
+            
+            <div class="method-source-code" id="run-source">
+<pre>
+<span class="ruby-comment"># File lib/class/user.rb, line 62</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">run</span> 
+  <span class="ruby-keyword">while</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">connected?</span>
+    <span class="ruby-identifier">line</span> = <span class="ruby-ivar">@socket</span>.<span class="ruby-identifier">gets</span> <span class="ruby-keyword">unless</span> <span class="ruby-ivar">@socket</span>.<span class="ruby-identifier">closed?</span>
+    <span class="ruby-keyword">if</span>(<span class="ruby-identifier">line</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">nil</span>)
+      <span class="ruby-ivar">@connected</span> = <span class="ruby-keyword">false</span>
+      <span class="ruby-ivar">@chatServer</span>.<span class="ruby-identifier">disconnectUser</span>(<span class="ruby-keyword">self</span>)
+      <span class="ruby-ivar">@socket</span>.<span class="ruby-identifier">close</span>
+      
+      <span class="ruby-keyword">break</span>
+    <span class="ruby-keyword">else</span>
+      <span class="ruby-constant">Thread</span>.<span class="ruby-identifier">new</span> <span class="ruby-keyword">do</span>
+        <span class="ruby-identifier">processIncomingData</span>(<span class="ruby-identifier">line</span>)
+        <span class="ruby-identifier">puts</span> <span class="ruby-identifier">line</span>
+      <span class="ruby-keyword">end</span>
+      
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;Connection Closed!&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- run-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- run-method -->
+
+      
+        <div id="send-method" class="method-detail ">
+          <a name="method-i-send"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">send</span><span
+              class="method-args">(data)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Send data to the client</p>
+            
+
+            
+            <div class="method-source-code" id="send-source">
+<pre>
+<span class="ruby-comment"># File lib/class/user.rb, line 204</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">send</span>(<span class="ruby-identifier">data</span>)
+  <span class="ruby-keyword">if</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">isSendAble?</span>
+    <span class="ruby-ivar">@socket</span>.<span class="ruby-identifier">puts</span>(<span class="ruby-identifier">data</span> <span class="ruby-operator">+</span> <span class="ruby-string">&quot; \n&quot;</span>)
+    <span class="ruby-ivar">@socket</span>.<span class="ruby-identifier">flush</span>
+    <span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;sended...--&gt; #{data}&quot;</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- send-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- send-method -->
+
+      
+        <div id="setId-method" class="method-detail ">
+          <a name="method-i-setId"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">setId</span><span
+              class="method-args">(value)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="setId-source">
+<pre>
+<span class="ruby-comment"># File lib/class/user.rb, line 253</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">setId</span>(<span class="ruby-identifier">value</span>)
+  <span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;Set value #{value}&quot;</span>
+  <span class="ruby-identifier">id</span> = <span class="ruby-ivar">@mysqlHelper</span>.<span class="ruby-identifier">isInDB</span>(<span class="ruby-constant">MysqlHelper</span><span class="ruby-operator">::</span><span class="ruby-constant">USER_TABLE</span>, <span class="ruby-string">&quot;uuid&quot;</span>, <span class="ruby-identifier">value</span>)
+  <span class="ruby-keyword">unless</span> <span class="ruby-identifier">id</span>
+    <span class="ruby-keyword">then</span>
+    <span class="ruby-keyword">self</span>.<span class="ruby-identifier">send</span>(<span class="ruby-constant">NOK_BAD_LOGGING</span>)
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-ivar">@uuid</span> = <span class="ruby-identifier">value</span>
+    <span class="ruby-ivar">@id</span> = <span class="ruby-identifier">id</span>
+    <span class="ruby-ivar">@logged</span> =<span class="ruby-keyword">true</span>
+    <span class="ruby-keyword">self</span>.<span class="ruby-identifier">send</span>(<span class="ruby-constant">OK_LOGGEG</span>)
+  <span class="ruby-keyword">end</span>
+  
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- setId-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- setId-method -->
+
+      
+        <div id="userChangeFromChannel-method" class="method-detail ">
+          <a name="method-i-userChangeFromChannel"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">userChangeFromChannel</span><span
+              class="method-args">(code,fromidchan,fromid)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Receive message from the channel if an user join or quit the channel code :
+204 =&gt; Joinning channel code : 205 =&gt; Quitting channel</p>
+            
+
+            
+            <div class="method-source-code" id="userChangeFromChannel-source">
+<pre>
+<span class="ruby-comment"># File lib/class/user.rb, line 232</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">userChangeFromChannel</span>(<span class="ruby-identifier">code</span>,<span class="ruby-identifier">fromidchan</span>,<span class="ruby-identifier">fromid</span>)
+  <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;User : useChanFromchannel&quot;</span>
+  <span class="ruby-identifier">dataMsg</span> = <span class="ruby-node">&quot;#{code}/#{fromidchan}/#{fromid}&quot;</span>
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">send</span>(<span class="ruby-identifier">dataMsg</span>)
+  
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- userChangeFromChannel-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- userChangeFromChannel-method -->
+
+      
+        <div id="waitFor-method" class="method-detail ">
+          <a name="method-i-waitFor"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">waitFor</span><span
+              class="method-args">(second)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="waitFor-source">
+<pre>
+<span class="ruby-comment"># File lib/class/user.rb, line 317</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">waitFor</span>(<span class="ruby-identifier">second</span>)
+  <span class="ruby-comment">#TODO Send to user waitting request</span>
+  <span class="ruby-constant">Thread</span>.<span class="ruby-identifier">new</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-identifier">sleep</span>(<span class="ruby-identifier">second</span>)
+    <span class="ruby-keyword">yield</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- waitFor-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- waitFor-method -->
+
+      
+      </div><!-- public-instance-method-details -->
+    
+    </div><!-- 5Buntitled-5D -->
+  
+
+  </div><!-- documentation -->
+
+  <div id="validator-badges">
+    <p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+    <p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
+      Rdoc Generator</a> 2</small>.</p>
+  </div>
+
+</body>
+</html>
+

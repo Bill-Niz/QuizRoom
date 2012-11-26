@@ -1,0 +1,38 @@
+10
+
+dir
+60
+svn://billniz.be/APP/QuizRoom/vendor
+svn://billniz.be/APP
+
+
+
+2012-06-14T22:00:46.868443Z
+60
+billniz
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e5649c11-03f7-4336-8139-6fab9a1fecfb
+
+
+
+
+
+
+0
+
+plugins
+dir
+
